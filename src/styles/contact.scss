@@ -1,0 +1,70 @@
+@import 'color';
+
+.contactUs{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >main{
+        width: 75%;
+        height: 450px;
+        background-color: rgb(140, 140, 243);
+        margin-bottom: 3rem;
+        // padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+
+        >h1{
+            font: 800 1.7rem $text1;
+            color: black;
+        }
+        >form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+
+            >div{
+                width: 100%;
+                height: 3rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+                >label{
+                    font: 400 1rem $text2;
+                    width: 10%;
+                    padding: 0.2rem;
+                    margin: 0 0.5rem;
+                }
+                >input{
+                    width: 60%;
+                    height: 2rem;
+                    padding: 0.5rem;
+                    outline: none;
+                    border: 1px solid rgb(140, 140, 243,0.5);
+                    border-radius: 4px;
+                }
+            }
+
+            >button{
+                width: 200px;
+                padding: 0.7rem;
+                margin: 42px 1rem 0 3rem;
+                background-color: rgb(33, 59, 80);
+                border: none;
+                border-radius: 1px solid rgb(145,145,245,0.6);
+                color: $first;
+                font: 300 1rem $text2;
+            }
+        }
+    }
+}
